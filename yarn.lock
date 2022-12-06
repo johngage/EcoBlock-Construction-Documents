@@ -1931,7 +1931,8 @@ babel-loader@^8.0.4:
   integrity sha512-JvTd0/D889PQBtUXJ2PXaKU/pjZDMtHA9V2ecm+eNRmmBCMR09a+fmpGTNwnJtFmFl5Ei7Vy47LjBb+L0wQ99g==
   dependencies:
     find-cache-dir "^3.3.1"
-    loader-utils ">= 2.0.4"
+    loader-utils "loader-utils@^2.0.4:
+  version "2.0.4"
     make-dir "^3.1.0"
     schema-utils "^2.6.5"
 
@@ -2937,7 +2938,8 @@ copy-webpack-plugin@^5.0.0:
     glob-parent "^3.1.0"
     globby "^7.1.1"
     is-glob "^4.0.1"
-    loader-utils "^2.0.4"
+    loader-utils loader-utils@^2.0.4:
+  version "2.0.4"
     minimatch "^3.0.4"
     normalize-path "^3.0.0"
     p-limit "^2.2.1"
@@ -3115,7 +3117,8 @@ css-loader@^3.1.0:
     camelcase "^5.3.1"
     cssesc "^3.0.0"
     icss-utils "^4.1.1"
-    loader-utils ">= 2.0.4"
+    loader-utils loader-utils@^2.0.4:
+  version "2.0.4"
     normalize-path "^3.0.0"
     postcss "^7.0.32"
     postcss-modules-extract-imports "^2.0.0"
@@ -4107,7 +4110,8 @@ exports-loader@^0.7.0:
   resolved "https://registry.yarnpkg.com/exports-loader/-/exports-loader-0.7.0.tgz#84881c784dea6036b8e1cd1dac3da9b6409e21a5"
   integrity sha512-RKwCrO4A6IiKm0pG3c9V46JxIHcDplwwGJn6+JJ1RcVnh/WSGJa0xkmk5cRVtgOPzCAtTMGj2F7nluh9L0vpSA==
   dependencies:
-    loader-utils ">= 2.0.4"
+    loader-utils@^2.0.4:
+  version "2.0.4"
     source-map "0.5.0"
 
 express@^4.17.1:
@@ -4284,7 +4288,8 @@ file-loader@^4.1.0:
   resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-4.3.0.tgz#780f040f729b3d18019f20605f723e844b8a58af"
   integrity sha512-aKrYPYjF1yG3oX0kWRrqrSMfgftm7oJW5M+m4owoldH5C51C0RkIwB++JbRvEW3IU6/ZG5n8UvEcdgwOt2UOWA==
   dependencies:
-    loader-utils "^1.2.3"
+    loader-utils@^2.0.4:
+  version "2.0.4"
     schema-utils "^2.5.0"
 
 file-type@^3.8.0:
@@ -5159,7 +5164,8 @@ html-webpack-plugin@^3.2.0:
   integrity sha1-sBq71yOsqqeze2r0SS69oD2d03s=
   dependencies:
     html-minifier "^3.2.3"
-    loader-utils ">= 2.0.4"
+    loader-utils@^2.0.4:
+  version "2.0.4"
     lodash "^4.17.3"
     pretty-error "^2.0.2"
     tapable "^1.0.0"
@@ -5363,7 +5369,8 @@ imports-loader@^0.8.0:
   resolved "https://registry.yarnpkg.com/imports-loader/-/imports-loader-0.8.0.tgz#030ea51b8ca05977c40a3abfd9b4088fe0be9a69"
   integrity sha512-kXWL7Scp8KQ4552ZcdVTeaQCZSLW+e6nJfp3cwUMB673T7Hr98Xjx5JK+ql7ADlJUvj1JS5O01RLbKoutN5QDQ==
   dependencies:
-    loader-utils "^1.0.2"
+    loader-utils@^2.0.4:
+  version "2.0.4"
     source-map "^0.6.1"
 
 imurmurhash@^0.1.4:
@@ -6151,8 +6158,8 @@ loader-runner@^2.4.0:
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"
   integrity sha512-Jsmr89RcXGIwivFY21FcRrisYZfvLMTWx5kOLc+JTxtpBOG6xML0vzbc6SEQG2FO9/4Fc3wW4LVcB5DmGflaRw==
 
-"loader-utils@>= 2.0.4":
-  version "3.2.1"
+loader-utils@^2.0.4:
+  version "2.0.4"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-3.2.1.tgz#4fb104b599daafd82ef3e1a41fb9265f87e1f576"
   integrity sha512-ZvFw1KWS3GVyYBYb7qkmRM/WwL2TQQBxgCK62rlvm4WpVQ23Nb4tYjApUlfjrEGvOs7KHEsmyUn75OHZrJMWPw==
 
@@ -6615,7 +6622,8 @@ mini-css-extract-plugin@^0.12.0:
   resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-0.12.0.tgz#ddeb74fd6304ca9f99c1db74acc7d5b507705454"
   integrity sha512-z6PQCe9rd1XUwZ8gMaEVwwRyZlrYy8Ba1gRjFP5HcV51HkXX+XlwZ+a1iAYTjSYwgNBXoNR7mhx79mDpOn5fdw==
   dependencies:
-    loader-utils "^1.1.0"
+    loader-utils@^2.0.4:
+  version "2.0.4"
     normalize-url "1.9.1"
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
@@ -8206,7 +8214,8 @@ postcss-loader@^3.0.0:
   resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-3.0.0.tgz#6b97943e47c72d845fa9e03f273773d4e8dd6c2d"
   integrity sha512-cLWoDEY5OwHcAjDnkyRQzAXfs2jrKjXpO/HQFcc5b5u/r7aa471wdmChmwfnv7x2u840iat/wi0lQ5nbRgSkUA==
   dependencies:
-    loader-utils "^1.1.0"
+    loader-utils@^2.0.4:
+  version "2.0.4"
     postcss "^7.0.0"
     postcss-load-config "^2.0.0"
     schema-utils "^1.0.0"
@@ -8913,7 +8922,8 @@ react-hot-loader@^4.8.0:
     fast-levenshtein "^2.0.6"
     global "^4.3.0"
     hoist-non-react-statics "^3.3.0"
-    loader-utils "^1.1.0"
+    loader-utils@^2.0.4:
+  version "2.0.4"
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.1.0"
@@ -9710,7 +9720,8 @@ sass-loader@^8.0.0:
   integrity sha512-7o4dbSK8/Ol2KflEmSco4jTjQoV988bM82P9CZdmo9hR3RLnvNc0ufMNdMrB0caq38JQ/FgF4/7RcbcfKzxoFQ==
   dependencies:
     clone-deep "^4.0.1"
-    loader-utils "^1.2.3"
+    loader-utils@^2.0.4:
+  version "2.0.4"
     neo-async "^2.6.1"
     schema-utils "^2.6.1"
     semver "^6.3.0"
@@ -10538,7 +10549,8 @@ style-loader@^1.0.0:
   resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-1.3.0.tgz#828b4a3b3b7e7aa5847ce7bae9e874512114249e"
   integrity sha512-V7TCORko8rs9rIqkSrlMfkqA63DfoGBBJmK1kKGCcSi+BWb4cqz0SRsnp4l6rU5iwOEd0/2ePv68SV22VXon4Q==
   dependencies:
-    loader-utils "^2.0.0"
+    loader-utils@^2.0.4:
+  version "2.0.4"
     schema-utils "^2.7.0"
 
 style-to-object@^0.3.0:
@@ -10817,8 +10829,8 @@ to-string-loader@^1.1.5:
   resolved "https://registry.yarnpkg.com/to-string-loader/-/to-string-loader-1.1.6.tgz#230529ccc63dd0ecca052a85e1fb82afe946b0ab"
   integrity sha512-VNg62//PS1WfNwrK3n7t6wtK5Vdtx/qeYLLEioW46VMlYUwAYT6wnfB+OwS2FMTCalIHu0tk79D3RXX8ttmZTQ==
   dependencies:
-    loader-utils "^1.0.0"
-
+   loader-utils@^2.0.4:
+  version "2.0.4"
 toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
@@ -11245,7 +11257,8 @@ url-loader@^2.1.0:
   resolved "https://registry.yarnpkg.com/url-loader/-/url-loader-2.3.0.tgz#e0e2ef658f003efb8ca41b0f3ffbf76bab88658b"
   integrity sha512-goSdg8VY+7nPZKUEChZSEtW5gjbS66USIGCeSJ1OVOJ7Yfuh/36YxCwMi5HVEJh6mqUYOoy3NJ0vlOMrWsSHog==
   dependencies:
-    loader-utils "^1.2.3"
+    lloader-utils@^2.0.4:
+  version "2.0.4"
     mime "^2.4.4"
     schema-utils "^2.5.0"
 
@@ -11509,7 +11522,8 @@ webpack-cli@^3.1.2:
     global-modules "^2.0.0"
     import-local "^2.0.0"
     interpret "^1.4.0"
-    loader-utils "^1.4.0"
+    loader-utils@^2.0.4:
+  version "2.0.4"
     supports-color "^6.1.0"
     v8-compile-cache "^2.1.1"
     yargs "^13.3.2"
@@ -11604,7 +11618,8 @@ webpack@^4.37.0:
     eslint-scope "^4.0.3"
     json-parse-better-errors "^1.0.2"
     loader-runner "^2.4.0"
-    loader-utils "^1.2.3"
+    loader-utils@^2.0.4:
+  version "2.0.4"
     memory-fs "^0.4.1"
     micromatch "^3.1.10"
     mkdirp "^0.5.3"
