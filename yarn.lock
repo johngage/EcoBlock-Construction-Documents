@@ -2942,7 +2942,7 @@ copy-webpack-plugin@^5.0.0:
     glob-parent "^3.1.0"
     globby "^7.1.1"
     is-glob "^4.0.1"
-    loader-utils "^1.2.3"
+    loader-utils "^2.0.4"
     minimatch "^3.0.4"
     normalize-path "^3.0.0"
     p-limit "^2.2.1"
@@ -3120,7 +3120,7 @@ css-loader@^3.1.0:
     camelcase "^5.3.1"
     cssesc "^3.0.0"
     icss-utils "^4.1.1"
-    loader-utils "^1.2.3"
+    loader-utils ">= 2.0.4"
     normalize-path "^3.0.0"
     postcss "^7.0.32"
     postcss-modules-extract-imports "^2.0.0"
@@ -4117,7 +4117,7 @@ exports-loader@^0.7.0:
   resolved "https://registry.yarnpkg.com/exports-loader/-/exports-loader-0.7.0.tgz#84881c784dea6036b8e1cd1dac3da9b6409e21a5"
   integrity sha512-RKwCrO4A6IiKm0pG3c9V46JxIHcDplwwGJn6+JJ1RcVnh/WSGJa0xkmk5cRVtgOPzCAtTMGj2F7nluh9L0vpSA==
   dependencies:
-    loader-utils "^1.1.0"
+    loader-utils ">= 2.0.4"
     source-map "0.5.0"
 
 express@^4.17.1:
